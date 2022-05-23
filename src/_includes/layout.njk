@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>{{site.mainTitle}}</title>
+  <link href="{{ '/css/style.css' }}" rel="stylesheet">
+</head>
+<body>
+{% include "nav.njk" %}
+  {{ content | safe }}
+{% include "footer.njk" %}
+</body>
+</html>
